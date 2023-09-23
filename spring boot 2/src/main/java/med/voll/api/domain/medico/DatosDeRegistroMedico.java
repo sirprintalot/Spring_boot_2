@@ -1,8 +1,8 @@
-package med.voll.api.medico;
+package med.voll.api.domain.medico;
 
 import jakarta.validation.*;
 import jakarta.validation.constraints.*;
-import med.voll.api.direccion.*;
+import med.voll.api.domain.direccion.*;
 
 public record DatosDeRegistroMedico(@NotBlank
                                     String nombre,

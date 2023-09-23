@@ -1,8 +1,8 @@
-package med.voll.api.paciente;
+package med.voll.api.domain.paciente;
 
 import jakarta.validation.*;
 import jakarta.validation.constraints.*;
-import med.voll.api.direccion.*;
+import med.voll.api.domain.direccion.*;
 
 public record DatosRegistroPaciente(
 

@@ -1,8 +1,8 @@
-package med.voll.api.paciente;
+package med.voll.api.domain.paciente;
 
 import jakarta.persistence.*;
 import lombok.*;
-import med.voll.api.direccion.*;
+import med.voll.api.domain.direccion.*;
 import org.hibernate.proxy.*;
 
 import java.util.*;
